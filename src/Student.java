@@ -1,6 +1,6 @@
 
 
-public class Student {
+public abstract class Student {
 
   
 	    private String name;     
@@ -70,6 +70,15 @@ public class Student {
 		public void setId(String id) {
 			this.id = id;
 		}
+		
+	    public double calcTuitionTotal(double tuition, double programFee) {
+	    	double result = tuition + programFee;
+	    	return result;
+	    }
+	    
+	
+	    
+	 
 		
 		
 
